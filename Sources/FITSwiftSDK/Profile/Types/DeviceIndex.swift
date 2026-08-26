@@ -13,5 +13,5 @@ public typealias DeviceIndex = UInt8
 
 public struct DeviceIndexValues: Sendable {
     public static let creator: DeviceIndex = 0
-    public static let invalid = 0xFF
+    public static let invalid: DeviceIndex = 0xFF
 }

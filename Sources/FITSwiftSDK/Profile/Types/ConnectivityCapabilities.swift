@@ -44,5 +44,5 @@ public struct ConnectivityCapabilitiesValues: Sendable {
     public static let liveTrackAutoStart: ConnectivityCapabilities = 0x20000000
     public static let liveTrackMessaging: ConnectivityCapabilities = 0x40000000
     public static let instantInput: ConnectivityCapabilities = 0x80000000
-    public static let invalid = 0x00000000
+    public static let invalid: ConnectivityCapabilities = 0x00000000
 }

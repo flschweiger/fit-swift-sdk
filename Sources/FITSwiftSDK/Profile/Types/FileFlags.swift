@@ -15,5 +15,5 @@ public struct FileFlagsValues: Sendable {
     public static let read: FileFlags = 0x02
     public static let write: FileFlags = 0x04
     public static let erase: FileFlags = 0x08
-    public static let invalid = 0x00
+    public static let invalid: FileFlags = 0x00
 }

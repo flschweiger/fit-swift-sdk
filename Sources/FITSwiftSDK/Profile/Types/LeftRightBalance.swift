@@ -14,5 +14,5 @@ public typealias LeftRightBalance = UInt8
 public struct LeftRightBalanceValues: Sendable {
     public static let mask: LeftRightBalance = 0x7F
     public static let right: LeftRightBalance = 0x80
-    public static let invalid = 0xFF
+    public static let invalid: LeftRightBalance = 0xFF
 }

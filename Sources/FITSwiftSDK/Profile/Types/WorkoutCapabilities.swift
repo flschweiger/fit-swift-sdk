@@ -26,5 +26,5 @@ public struct WorkoutCapabilitiesValues: Sendable {
     public static let grade: WorkoutCapabilities = 0x00001000
     public static let resistance: WorkoutCapabilities = 0x00002000
     public static let protected: WorkoutCapabilities = 0x00004000
-    public static let invalid = 0x00000000
+    public static let invalid: WorkoutCapabilities = 0x00000000
 }

@@ -15,5 +15,5 @@ public struct MessageIndexValues: Sendable {
     public static let selected: MessageIndex = 0x8000
     public static let reserved: MessageIndex = 0x7000
     public static let mask: MessageIndex = 0x0FFF
-    public static let invalid = 0xFFFF
+    public static let invalid: MessageIndex = 0xFFFF
 }

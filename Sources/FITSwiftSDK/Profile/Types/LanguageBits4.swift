@@ -18,5 +18,5 @@ public struct LanguageBits4Values: Sendable {
     public static let vietnamese: LanguageBits4 = 0x08
     public static let burmese: LanguageBits4 = 0x10
     public static let mongolian: LanguageBits4 = 0x20
-    public static let invalid = 0x00
+    public static let invalid: LanguageBits4 = 0x00
 }

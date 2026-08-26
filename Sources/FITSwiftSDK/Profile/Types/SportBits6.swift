@@ -13,5 +13,5 @@ public typealias SportBits6 = UInt8
 
 public struct SportBits6Values: Sendable {
     public static let floorClimbing: SportBits6 = 0x01
-    public static let invalid = 0x00
+    public static let invalid: SportBits6 = 0x00
 }

@@ -20,5 +20,5 @@ public struct LanguageBits1Values: Sendable {
     public static let polish: LanguageBits1 = 0x20
     public static let portuguese: LanguageBits1 = 0x40
     public static let slovakian: LanguageBits1 = 0x80
-    public static let invalid = 0x00
+    public static let invalid: LanguageBits1 = 0x00
 }

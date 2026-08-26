@@ -13,5 +13,5 @@ public typealias Weight = UInt16
 
 public struct WeightValues: Sendable {
     public static let calculating: Weight = 0xFFFE
-    public static let invalid = 0xFFFF
+    public static let invalid: Weight = 0xFFFF
 }

@@ -14,5 +14,5 @@ public typealias LeftRightBalance100 = UInt16
 public struct LeftRightBalance100Values: Sendable {
     public static let mask: LeftRightBalance100 = 0x3FFF
     public static let right: LeftRightBalance100 = 0x8000
-    public static let invalid = 0xFFFF
+    public static let invalid: LeftRightBalance100 = 0xFFFF
 }

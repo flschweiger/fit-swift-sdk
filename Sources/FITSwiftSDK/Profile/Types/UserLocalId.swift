@@ -18,5 +18,5 @@ public struct UserLocalIdValues: Sendable {
     public static let stationaryMax: UserLocalId = 0x00FF
     public static let portableMin: UserLocalId = 0x0100
     public static let portableMax: UserLocalId = 0xFFFE
-    public static let invalid = 0xFFFF
+    public static let invalid: UserLocalId = 0xFFFF
 }

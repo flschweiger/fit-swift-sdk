@@ -20,5 +20,5 @@ public struct SupportedExdScreenLayoutsValues: Sendable {
     public static let fullQuarterSplit: SupportedExdScreenLayouts = 0x00000020
     public static let halfVerticalLeftSplit: SupportedExdScreenLayouts = 0x00000040
     public static let halfHorizontalTopSplit: SupportedExdScreenLayouts = 0x00000080
-    public static let invalid = 0x00000000
+    public static let invalid: SupportedExdScreenLayouts = 0x00000000
 }

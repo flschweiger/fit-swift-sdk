@@ -13,5 +13,5 @@ public typealias BacklightTimeout = UInt8
 
 public struct BacklightTimeoutValues: Sendable {
     public static let infinite: BacklightTimeout = 0
-    public static let invalid = 0xFF
+    public static let invalid: BacklightTimeout = 0xFF
 }

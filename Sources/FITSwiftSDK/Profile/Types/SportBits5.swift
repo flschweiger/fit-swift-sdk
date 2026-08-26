@@ -20,5 +20,5 @@ public struct SportBits5Values: Sendable {
     public static let tactical: SportBits5 = 0x20
     public static let jumpmaster: SportBits5 = 0x40
     public static let boxing: SportBits5 = 0x80
-    public static let invalid = 0x00
+    public static let invalid: SportBits5 = 0x00
 }

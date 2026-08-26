@@ -25,5 +25,5 @@ public struct AttitudeValidityValues: Sendable {
     public static let solutionCoasting: AttitudeValidity = 0x0400
     public static let trueTrackAngle: AttitudeValidity = 0x0800
     public static let magneticHeading: AttitudeValidity = 0x1000
-    public static let invalid = 0xFFFF
+    public static let invalid: AttitudeValidity = 0xFFFF
 }

@@ -16,5 +16,5 @@ public struct AntChannelIdValues: Sendable {
     public static let antTransmissionTypeLowerNibble: AntChannelId = 0x0F000000
     public static let antDeviceType: AntChannelId = 0x00FF0000
     public static let antDeviceNumber: AntChannelId = 0x0000FFFF
-    public static let invalid = 0x00000000
+    public static let invalid: AntChannelId = 0x00000000
 }

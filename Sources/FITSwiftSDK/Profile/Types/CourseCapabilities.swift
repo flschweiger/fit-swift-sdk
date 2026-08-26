@@ -24,5 +24,5 @@ public struct CourseCapabilitiesValues: Sendable {
     public static let navigation: CourseCapabilities = 0x00000200
     public static let bikeway: CourseCapabilities = 0x00000400
     public static let aviation: CourseCapabilities = 0x00001000
-    public static let invalid = 0x00000000
+    public static let invalid: CourseCapabilities = 0x00000000
 }
